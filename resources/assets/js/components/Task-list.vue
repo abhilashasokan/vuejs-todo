@@ -39,7 +39,7 @@
                         </p>
                         <a href="#" class="card-header-icon" aria-label="more options"
                             v-on:click.prevent="archiveTask(task.id)">
-                            <span class="icon">
+                            <span class="icon"> 
                                 <i class="fa " :class="{'fa-square-o': !task.archive,check: !task.archive, 'fa-check-square-o': task.archive, done: task.archive}" aria-hidden="true"></i>
                             </span>
                         </a>
